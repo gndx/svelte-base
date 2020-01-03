@@ -22,7 +22,7 @@
     }
   ],
   "rules": {
-    "no-unused-vars": "off"
+    "no-unused-vars": "on"
   },
   "globals": {
     "window": true,

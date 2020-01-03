@@ -1,5 +1,5 @@
 <script>
-  consolse.log("Svelte");
+  export let name;
 </script>
 
 <style>
@@ -14,5 +14,5 @@
 </style>
 
 <div class="main">
-  <h1>Hello World</h1>
+  <h1>Hello {name}!</h1>
 </div>
