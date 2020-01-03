@@ -1,0 +1,38 @@
+{
+  "name": "svelte-base",
+  "version": "1.0.0",
+  "description": "Simple Svelte Configuration",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/svelte-base.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Svelte"
+  ],
+  "author": "Oscar Barajas <oscar@arepa.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndx/svelte-base/issues"
+  },
+  "homepage": "https://github.com/gndx/svelte-base#readme",
+  "dependencies": {
+    "svelte": "^3.16.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
