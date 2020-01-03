@@ -1,5 +1,5 @@
 <script>
-  console.log("Svelte");
+  consolse.log("Svelte");
 </script>
 
 <style>
