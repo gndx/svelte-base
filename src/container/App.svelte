@@ -1,7 +1,3 @@
-<script>
-  export let name;
-</script>
-
 <style>
   :global(body) {
     background-color: #676778;
@@ -14,5 +10,5 @@
 </style>
 
 <div class="main">
-  <h1>Hello {name}!</h1>
+  <h1>¡Hola Mundo!</h1>
 </div>
